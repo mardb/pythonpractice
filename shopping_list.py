@@ -14,7 +14,7 @@ def add_to_list(item):
   shopping_list.append(item)
   print("Added! List has {} items.".format(len(shopping_list)))
 
-# define a  new fn called show list  that prints all items in the list 
+
 def show_list():
   print("Here is your list:")
   for item in shopping_list:
@@ -31,8 +31,7 @@ while True:
   elif new_item == 'SHOW':
     show_help()
     continue
-    # enable the show command. 
-  # HINT: make sure to run  it
+ 
   show_list()
   add_to_list(new_item)
 
